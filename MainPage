@@ -1,0 +1,31 @@
+<h1>
+Nick and Lance's Fishing Flies
+</h1>
+<p>
+An interactive fishing fly marketplace
+</p>
+<img src="https://github.com/nblanco3632/CSCfinalproject/blob/master/Map_of_vic.png?raw=true" usemap=fishingareas >
+
+<map name="fishingareas">
+  <area shape="circle" coords="516,271,10" href="CSCfinalproject/bestfly1.html" alt="Nanaimo">
+  <area shape="circle" coords="385,138,10" 
+  href="https://jsfiddle.net/nblanco/agLLpmph/" alt="CampbellRiver">
+</map>
+<br />
+<br />
+<p>
+Click places on the map for fly reccomendations
+<br>
+<br>
+These are the clickable places on the map
+<br>
+<ul>
+<li>Nanaimo</li>
+<li>Campbell River</li>
+<li> Courtenay</li>
+<li>Tofino</li>
+</ul>
+<p />
+<p1> Click here to purchase flies</p1>
+<br>
+<button type="button" id="buyNow">Buy Now</button>
