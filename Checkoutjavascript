@@ -1,0 +1,41 @@
+function placeOrder() {
+  alert('Order has been added to your cart.');
+  console.log("placeOrder")
+}
+document.getElementById("clickMe").onclick = placeOrder;
+
+var yourOrderList = "";
+
+function updateList(order) {
+  yourOrderList = yourOrderList + order;
+  document.getElementById("yourOrder").innerHTML = yourOrderList;
+}
+updateList("")
+
+var orderTotal = 0;
+
+function updateTotal(cost) {
+  orderTotal = orderTotal + cost;
+  document.getElementById("orderTotal").innerHTML = orderTotal;
+}
+updateTotal(0)
+document.getElementById("wooly").onclick = function() {
+  updateTotal(2);
+  updateList("Wooly Bugger<br>");
+};
+document.getElementById("nymph").onclick = function() {
+  updateTotal(2);
+  updateList("Black Stonefly Nymph<br>");
+};
+document.getElementById("caddis").onclick = function() {
+  updateTotal(3)
+  updateList("Elk Hair Caddis<br>");
+};
+document.getElementById("parachute").onclick = function() {
+  updateTotal(4)
+  updateList("Parachute Adams<br>");
+};
+document.getElementById("bunny").onclick = function() {
+  updateTotal(3)
+  updateList("Bunny Leech<br>")
+};
