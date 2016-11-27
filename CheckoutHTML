@@ -1,0 +1,42 @@
+<h1>
+Checkout
+</h1>
+<p1>Place Order Here</p1>
+<br>
+<br>
+<ul>
+  <li>Wooly Bugger $2
+    <button id="wooly">
+      Add</button>
+  </li>
+  <li>Black Stonefly Nymph $2
+    <button id="nymph">
+      Add</button>
+  </li>
+  <li>Elk Hair Caddis $3
+    <button id="caddis">
+      Add</button>
+  </li>
+  <li>Parachute Adams $4
+    <button id="parachute">
+      Add</button>
+  </li>
+  <li>Bunny Leech $3
+    <button id="bunny">
+      Add</button>
+  </li>
+</ul>
+<p1>Your Order</p1>
+<br>
+<br>
+<p1 id=yourOrder>List </p1>
+<br>
+<br>
+<p1>Order Total</p1>
+<br>
+<br>
+<p1>$</p1>
+<p1 id=orderTotal>Total </p1>
+<br>
+<br>
+<button id="clickMe">Place Order</button>
