@@ -8,8 +8,19 @@ An interactive fishing fly marketplace
 
 <map name="fishingareas">
   <area shape="circle" coords="516,271,10" href="CSCfinalproject/bestfly1.html" alt="Nanaimo">
+  
   <area shape="circle" coords="385,138,10" 
   href="https://jsfiddle.net/nblanco/agLLpmph/" alt="CampbellRiver">
+  
+  <area shape="circle" coords="411,193,10" 
+  href="https://jsfiddle.net/nblanco/agLLpmph/" alt="Courtenay">
+  
+  <area shape="circle" coords="385,138,10" 
+  href="https://jsfiddle.net/nblanco/agLLpmph/" alt="CampbellRiver">
+  
+  <area shape="circle" coords="322,272,10" 
+  href="https://jsfiddle.net/nblanco/agLLpmph/" alt="Tofino">
+  
 </map>
 <br />
 <br />
@@ -27,5 +38,6 @@ These are the clickable places on the map
 </ul>
 <p />
 <p1> Click here to purchase flies</p1>
+<br>
 <br>
 <button type="button" id="buyNow">Buy Now</button>
